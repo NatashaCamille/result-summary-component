@@ -1,3 +1,21 @@
+/* :root {
+--Light red: hsl(0, 100%, 67%)
+--Orangey yellow: hsl(39, 100%, 56%)
+--Green teal: hsl(166, 100%, 37%)
+--Cobalt blue: hsl(234, 85%, 45%)
+
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    gap: 0;
+}
+
+
 
 .attribution { 
     font-size: 11px; 
