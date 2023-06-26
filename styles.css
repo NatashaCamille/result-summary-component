@@ -3,8 +3,8 @@
 --Orangey-yellow: hsl(39, 100%, 56%);
 --Green-teal: hsl(166, 100%, 37%);
 --Cobalt-blue: hsl(234, 85%, 45%);
---Light-slate-blue: hsl(252, 100%, 67%);
---Light-royal-blue: hsl(241, 81%, 54%);
+--clr-gradient-slateblue: hsl(252, 100%, 67%);
+--clr-gradient-royalblue: hsl(241, 81%, 54%);
 
 --Violet-blue: hsla(256, 72%, 46%, 1);
 --Persian-blue: hsla(241, 72%, 46%, 0);
@@ -19,23 +19,36 @@ body {
     gap: 0;
 }
 
-.container {
+.card-container {
     display: flex;
     width: 60vw;
     justify-content: center;
     border-radius: 1.8vw;
 }
 
-.card-one {
-    color: #fff;
-    padding: 20px;
+.result {
+    padding: 1.5rem;
     width: 50%;
     border-radius: 20px;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: linear-gradient(to bottom, var(--clr-gradient-slateblue), var(--clr-gradient-royalblue));
 }
 
-  
+.card-two {
+    width: 50%;
+    padding: 20px;
+}
 
+.card-one h4 {
+    text-align: center;
+}
+
+.card-score_1 {
+    padding: 50px;
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    box-shadow: ;
+}
 
 .attribution { 
     font-size: 11px; 
