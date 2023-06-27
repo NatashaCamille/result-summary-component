@@ -6,8 +6,8 @@
 --clr-gradient-slateblue: hsl(252, 100%, 67%);
 --clr-gradient-royalblue: hsl(241, 81%, 54%);
 
---clr-gradient-violet-blue: hsla(256, 72%, 46%, 1);
---clr-gradient-persian-blue: hsla(241, 72%, 46%, 0);
+--clr-gradient-violetblue: hsla(256, 72%, 46%, 1);
+--clr-gradient-persianblue: hsla(241, 72%, 46%, 0);
 --light-lavender: hsl(280, 63%, 68%);
 }
 
@@ -28,18 +28,26 @@ body {
 }
 
 .result {
-    padding: 1.5rem;
     width: 50%;
-    border-radius: 20px;
+    padding: 1.5rem;
+    border-radius: 2rem;
     background: linear-gradient(to bottom, var(--clr-gradient-slateblue), var(--clr-gradient-royalblue));
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .result .circle {
-    width: 10rem;
-    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(hsl(255, 71%, 46%), rgba(76, 34, 201, 0));
+    height: 145px;
+    width: 145px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, var(--clr-gradient-violetblue), var(--clr-gradient-Persianblue));
 }
 
 .result h3 {
