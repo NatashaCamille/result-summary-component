@@ -1,13 +1,14 @@
 :root {
---Light-red: hsl(0, 100%, 67%);
---Orangey-yellow: hsl(39, 100%, 56%);
---Green-teal: hsl(166, 100%, 37%);
---Cobalt-blue: hsl(234, 85%, 45%);
+--light-red: hsl(0, 100%, 67%);
+--orangey-yellow: hsl(39, 100%, 56%);
+--green-teal: hsl(166, 100%, 37%);
+--cobalt-blue: hsl(234, 85%, 45%);
 --clr-gradient-slateblue: hsl(252, 100%, 67%);
 --clr-gradient-royalblue: hsl(241, 81%, 54%);
 
---Violet-blue: hsla(256, 72%, 46%, 1);
---Persian-blue: hsla(241, 72%, 46%, 0);
+--clr-gradient-violet-blue: hsla(256, 72%, 46%, 1);
+--clr-gradient-persian-blue: hsla(241, 72%, 46%, 0);
+--light-lavender: hsl(280, 63%, 68%);
 }
 
 body {
@@ -31,14 +32,26 @@ body {
     width: 50%;
     border-radius: 20px;
     background: linear-gradient(to bottom, var(--clr-gradient-slateblue), var(--clr-gradient-royalblue));
+    text-align: center;
 }
 
-.card-two {
+.result .circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, var(--clr-gradient-violetblue), var(--clr-gradient-Persianblue));
+}
+
+.result h3 {
+    color: var(--light-lavender);
+}
+
+.summary {
     width: 50%;
     padding: 20px;
 }
 
-.card-one h4 {
+.summary title {
     text-align: center;
 }
 
