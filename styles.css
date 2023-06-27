@@ -28,15 +28,15 @@ body {
 }
 
 .result {
-    width: 50%;
-    padding: 1.5rem;
-    border-radius: 2rem;
-    background: linear-gradient(to bottom, var(--clr-gradient-slateblue), var(--clr-gradient-royalblue));
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+      width: 50%;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  background: linear-gradient(to bottom, var(--clr-gradient-slateblue), var(--clr-gradient-royalblue));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .result .circle {
