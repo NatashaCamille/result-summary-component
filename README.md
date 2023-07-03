@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/NatashaCamille/result-summary-component]
-- Live Site URL: [fm-result-summary.netlify.app]
+- Live Site URL: [https://fm-result-summary.netlify.app]
 
 ## My process
 
